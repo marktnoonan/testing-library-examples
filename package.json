@@ -1,0 +1,35 @@
+{
+  "name": "cypress-test-tiny",
+  "version": "1.0.0",
+  "description": "Small project for quickly testing Cypress.io test runner",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:verify": "cypress verify",
+    "cypress:version": "cypress version",
+    "cypress:info": "cypress info",
+    "cypress:cache:list": "cypress cache list",
+    "list-videos": "ls -l cypress/videos",
+    "check-videos": "ok-file 'cypress/videos/*.mp4'",
+    "set-status": "set-status"
+  },
+  "keywords": [],
+  "author": "Gleb Bahmutov <gleb@cypress.io>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cypress-io/cypress-test-tiny.git"
+  },
+  "devDependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "cypress": "^11.2.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "ok-file": "1.5.2"
+  }
+}
